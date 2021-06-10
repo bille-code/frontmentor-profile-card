@@ -379,4 +379,53 @@ template {
   height: 100vh;
   font-size: .90em;
 }
+
+.card {
+  background-color: white;
+  width: 326px;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card-header {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-body-img {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: -3rem;
+  background-color: white;
+}
+
+.card-body.text {
+  color: #6a6f81;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=style.css.map */
