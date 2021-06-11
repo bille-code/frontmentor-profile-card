@@ -414,7 +414,17 @@ template {
   background-color: white;
 }
 
-.card-body.text {
+.card-body-title {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+.card-body-title span {
+  color: #6a6f81;
+  font-weight: 100;
+}
+
+.card-body-text {
   color: #6a6f81;
   font-size: 1.6rem;
   margin-top: 0;
@@ -427,5 +437,16 @@ template {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  border-top: 2px solid #dedede;
+  padding-top: 2rem;
+}
+
+.card-footer-social {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.card-footer-social p {
+  color: #6a6f81;
 }
 /*# sourceMappingURL=style.css.map */
