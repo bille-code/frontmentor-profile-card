@@ -9,6 +9,7 @@ html {
 body{
     font-family: "Kumbh-sans", sans-serif;
     background-color: $dark-cyan;
-
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
 }
 

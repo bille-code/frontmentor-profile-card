@@ -12,6 +12,8 @@ html {
 body {
   font-family: "Kumbh-sans", sans-serif;
   background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
 }
 
 .attribution {
@@ -405,6 +407,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 2px solid #dedede;
 }
 
 .card-body-img {
@@ -426,7 +429,7 @@ template {
 
 .card-body-text {
   color: #6a6f81;
-  font-size: 1.6rem;
+  font-size: 1rem;
   margin-top: 0;
   margin-bottom: 2rem;
 }
@@ -437,8 +440,7 @@ template {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border-top: 2px solid #dedede;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .card-footer-social {
